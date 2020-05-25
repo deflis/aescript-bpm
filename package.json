@@ -1,0 +1,24 @@
+{
+  "name": "aescript-bpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "extendscript-es5-shim-ts": "^0.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-packager": "file:packager",
+    "prettier": "^2.0.5",
+    "shx": "^0.3.2",
+    "types-for-adobe": "^3.0.0",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "watch": "parcel watch --no-hmr src/index.ts",
+    "build": "parcel build src/index.ts --no-source-maps --experimental-scope-hoisting && shx cp dist/index.js \"dist/BPM Marker.jsx\""
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}

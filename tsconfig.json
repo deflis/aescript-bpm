@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "commonjs",
+    "noLib": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": false,
+    "esModuleInterop": true,
+  }
+}

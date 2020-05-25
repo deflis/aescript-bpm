@@ -1,0 +1,9 @@
+{
+  "name": "parcel-plugin-packager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "license": "ISC",
+  "private": true
+}

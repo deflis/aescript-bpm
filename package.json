@@ -16,7 +16,7 @@
   },
   "scripts": {
     "watch": "parcel watch --no-hmr src/index.ts",
-    "build": "parcel build src/index.ts --no-source-maps --experimental-scope-hoisting && shx cp dist/index.js \"dist/BPM Marker.jsx\""
+    "build": "parcel build src/index.ts --no-source-maps && shx cp dist/index.js \"dist/BPM Marker.jsx\""
   },
   "author": "",
   "license": "ISC",

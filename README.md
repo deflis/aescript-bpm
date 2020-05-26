@@ -4,6 +4,11 @@ AfterEffectsで音楽PV等を作るときに便利なBPMマーカーを設置す
 
 [https://github.com/lian-wired/AE-Scripts/tree/master/bpmMarker] を参考に、ScriptUIの実装やオフセットの実装等を行いました。
 
+![Window](https://user-images.githubusercontent.com/206113/82857310-98043e80-9f4b-11ea-809a-97868797611e.png)
+
+![timeline](https://user-images.githubusercontent.com/206113/82857359-ba965780-9f4b-11ea-952c-1fe2214a142c.png)
+
+
 ## Getting Started / スタートガイド
 
 ### Prerequisites / 必要条件
